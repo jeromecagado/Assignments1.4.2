@@ -8,10 +8,10 @@ namespace Assignments1._4._2
 {
     public class Student
     {
-        private int studentId;
-        private string studentFname;
-        private string studentLname;
-        private char studentGrade;
+        private int _studentId;
+        private string _studentFname;
+        private string _studentLname;
+        private char _studentGrade;
 
         public int StudentId { get; set; }
         public string StudentFname { get; set; }
