@@ -9,11 +9,25 @@ namespace Assignments1._4._2
     public class Student
     {
         private int _studentId;
-        private string _studentFname;
-        private string _studentLname;
-        private char _studentGrade;
 
-        public int StudentId { get; set; }
+        public int StudentId
+        {
+            get
+            {
+                return _studentId;
+            }
+            set
+            {
+                if (value > 1)
+                {
+                    _studentId = value;
+                }
+                else
+                {
+                    _studentId = 1;
+                }
+            }
+        }
         public string StudentFname { get; set; }
         public string StudentLname { get; set; }
         public char StudentGrade { get; set; }

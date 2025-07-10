@@ -10,6 +10,7 @@
             student.StudentLname = "Cagado";
             student.StudentGrade = 'A';
             student.DisplayInfo();
+            Console.ReadKey();
 
         }
     }
