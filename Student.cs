@@ -17,5 +17,13 @@ namespace Assignments1._4._2
         public string StudentFname { get; set; }
         public string StudentLname { get; set; }
         public char StudentGrade { get; set; }
+
+        public void DisplayInfo()
+        {
+
+            Console.WriteLine($"Student id: {StudentId:000}");
+            Console.WriteLine($"Student's name is: {StudentFname} {StudentLname}");
+            Console.WriteLine($"Student's grade is a: {StudentGrade}");
+        }
     }
 }
